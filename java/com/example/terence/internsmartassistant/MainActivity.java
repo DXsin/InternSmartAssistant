@@ -1,5 +1,6 @@
 package com.example.terence.internsmartassistant;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent Intent = new Intent(view.getContext(), JournalMain.class);
                 view.getContext().startActivity(Intent);}
+
         });
     }
-
 
 
 }
